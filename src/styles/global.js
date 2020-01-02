@@ -50,5 +50,12 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}`
+}
+html
+{
+  position:fixed;
+  width:100%;
+  height:100%;
+}
+`
 export default GlobalStyles
