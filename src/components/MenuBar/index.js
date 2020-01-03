@@ -10,12 +10,12 @@ const MenuBar = () => (
   <S.MenuBarWrapper>
     {/* Primeiro menu */}
     <S.MenuBarGroup>
-      <S.MenuBarLink to='/' title='Voltar Para home'>
+      <S.MenuBarLink to="/" title="Voltar Para home">
         <S.MenuBarItem>
           <Home />
         </S.MenuBarItem>
-      </S.MenuBarLink>    
-      <S.MenuBarLink to='/search' title='Pesquisar'>
+      </S.MenuBarLink>
+      <S.MenuBarLink to="/search" title="Pesquisar">
         <S.MenuBarItem>
           <Search />
         </S.MenuBarItem>
@@ -23,13 +23,13 @@ const MenuBar = () => (
     </S.MenuBarGroup>
     {/* terceiro menu */}
     <S.MenuBarGroup>
-      <S.MenuBarItem title='Mudar o Tema'>
+      <S.MenuBarItem title="Mudar o Tema">
         <Light />
       </S.MenuBarItem>
-      <S.MenuBarItem title='Mudar Visualização'>
+      <S.MenuBarItem title="Mudar Visualização">
         <Grid />
       </S.MenuBarItem>
-      <S.MenuBarItem title='Ir para o topo'>
+      <S.MenuBarItem title="Ir para o topo">
         <Arrow />
       </S.MenuBarItem>
     </S.MenuBarGroup>

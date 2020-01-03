@@ -2,7 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import * as S from './styled'
 
-const PostItem = ({ slug, category, date, timeToRead, title, description, background }) => (
+const PostItem = ({
+  slug,
+  category,
+  date,
+  timeToRead,
+  title,
+  description,
+  background
+}) => (
   <S.PostItemLink to={slug}>
     <S.PostItemWrapper>
       <S.PostItemTag background={background}>{category}</S.PostItemTag>
